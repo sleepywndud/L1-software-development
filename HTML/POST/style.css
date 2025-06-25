@@ -43,3 +43,10 @@ footer {
 #main_image {
     width: 100%;
 }
+
+#hero_image {
+    background-image: url(../POST/img/ocean.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
