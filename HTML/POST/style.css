@@ -9,24 +9,53 @@
 }
 
 body {
-    font-family: Jenku, SNPro, Arial, Helvetica, sans-serif;
+    font-family: SNPro, Arial, Helvetica, sans-serif;
     background-color: #daf0f7;
     font-weight: normal;
     margin: 0px 0px 0px 0px;
 }
 
 main {
-    width: 80%;
-    margin: 0 auto 0 auto;
+    width: 100%;
+    margin-top: 0px;
+
+    #main_content {
+        margin-left: 5%; 
+        margin-right: 5;
+    }
 }
 
 h1 {
+    font-family: jenku;
     font-size: 60px;
     color: #167187;
 }
 
 h2 {
+    font-family: jenku;
     color: rgb(60, 179, 179);
+}
+
+nav {
+    background-color: #167187;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 120px;
+    padding: 15px 0px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #167187;
+}
+
+nav a:hover {
+    background-color: #0d4553;
+}
+
+nav a:visited {
+    color: #daf0f7
 }
 
 header {
@@ -34,6 +63,7 @@ header {
 }
 
 footer {
+    text-align: center;
     background-color: #167187;
     color: #daf0f7;
     padding-top: 30px;
@@ -45,8 +75,17 @@ footer {
 }
 
 #hero_image {
-    background-image: url(../POST/img/ocean.jpg);
+    background-image: url(/img/ocean.jpg);
     background-size: cover;
     background-position: center;
+    display: inline-block;
     height: 600px;
+    width: 100%;
+
+    h1 {
+        color: white;
+        text-align: center;
+        margin-top: 100px;
+    }
 }
+
