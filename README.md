@@ -1,1 +1,1 @@
-school stuffs
+school stuff
