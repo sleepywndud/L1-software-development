@@ -125,7 +125,8 @@ while True:
 1. Fetch Data of All Players
 2. Fetch First & Last Names of All 'Fly-Half' Players
 3. Fetch Player's First & Last Name who scored the most Points
-4. Fetch player's first & last name who played more than 50 tests.\n\n\nEnter Function: """)
+4. Fetch player's first & last name who played more than 50 tests.\n\n\nEnter Function: 
+""")
         
         if userinput == 1:
             all_players()
